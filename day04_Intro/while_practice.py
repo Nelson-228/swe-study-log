@@ -1,13 +1,18 @@
-# Creating a variable that receives the user's input that will limit the loop to a specific number
+# Day 4 – While Loop Practice
+# Purpose: Count from 1 to a user-defined limit using a while loop
+# Author: Nelson Rueda
+# Date: 2025-06-01
+
+# === Get user-defined limit ===
 limit = int(input("Give me a number that I will count up to: "))
 
-# Variable that declares the start of the number
+# === Initialize starting number ===
 starting_number = 1
 
-# While this loop is going, it will count down starting from the "starting_number", while adding +1 until it reaches the limit number, then breaks.
+# === Count using while loop ===
 while starting_number <= limit:
-    print("Number", starting_number)
+    print("Number:", starting_number)
     starting_number += 1
 
-# Displays output to user that the system successfully did a countdown to its requested number
-print(f"I successfully counting up to {limit}. Have a great day!")
+# === End message ===
+print(f"I successfully counted up to {limit}. Have a great day!")
