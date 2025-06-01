@@ -1,24 +1,19 @@
-# SWE Study Log – Phase 0
+# Day 3 – Python Conditionals
 
-This repository tracks my daily progress through foundational Python programming and software engineering concepts. Each file represents a self-contained exercise or script created during my focused 2-hour SWE Study block.
+This folder contains a script that evaluates a user’s numeric test score and outputs a letter grade with feedback.
+
+## 📄 Script: `day3_conditionals.py`
+
+### 🎯 Goal
+Use conditional logic to determine a letter grade based on a numeric score and provide motivational feedback.
+
+### 🧠 Concepts Practiced
+- User input handling with `input()`
+- Type conversion using `float()`
+- Conditional control flow using `if`, `elif`, and `else`
+- f-string formatting for dynamic feedback
+- Multi-branch decision logic for real-world evaluation scenarios
 
 ---
 
-## ✅ Day 3: Python Conditionals
-
-**Filename:** `day3_conditionals.py`  
-**Topic:** If / Elif / Else logic  
-**Description:**  
-A command-line script that:
-- Asks the user for their name
-- Takes a numeric test score (0–100)
-- Outputs a letter grade (A–F) using conditional statements
-- Provides motivational feedback based on score range
-
-**Concepts practiced:**
-- User input handling
-- Data type casting (`input()` to `float`)
-- Multi-branch control flow using `if`, `elif`, and `else`
-- String formatting with `f-strings`
-
-
+✅ _Completed as part of SWE Study Log – Phase 0, Day 3._
