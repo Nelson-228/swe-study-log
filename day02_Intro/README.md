@@ -2,12 +2,12 @@
 
 This folder contains a practice script for Python variables, arithmetic, and user input/output.
 
-## Script: `day2_math.py`
+## 📄 Script: `day2_math.py`
 
-**Goal:**  
+### 🎯 Goal
 Allow the user to input two numbers and perform a basic arithmetic operation (addition, subtraction, multiplication, or division) based on user-selected input.
 
-**Concepts practiced:**
+### 🧠 Concepts Practiced
 - Declaring and initializing variables
 - Receiving user input with `input()`
 - Type conversion with `float()`
